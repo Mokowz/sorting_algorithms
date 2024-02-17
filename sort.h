@@ -34,6 +34,8 @@ typedef struct listint_s
 } listint_t;
 
 void swap_integers(int *num1, int *num2);
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
 
 void bubble_sort(int *array, size_t size);
 
