@@ -23,16 +23,16 @@ void swap_nodes(listint_t **h, listint_t **node1, listint_t *node2)
 }
 
 /**
- * insertion_sort_list - sorts a doubly linked list
+ * insertion_sort - sorts a doubly linked list
  * @lst: A pointer to the head of the doubly linked list
  */
 
 /* Time Complexity: O(n^2)*/
-void insertion_sort_list(listint_t **lst)
+void insertion_sort(listint_t **lst)
 {
 	listint_t *itr, *insert, *tmp;
 
-	if (list == NULL || *list == NULL || (*list)->next == NULL)
+	if (lst == NULL || *lst == NULL || (*lst)->next == NULL)
 		return;
 
 	for (itr = (*lst)->next; itr != NULL; itr = tmp)
