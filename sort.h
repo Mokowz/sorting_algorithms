@@ -10,12 +10,14 @@
 
 /**
  * enum bool - Enumeration of boolean values
+ * @false: False
+ * @true: True
 */
 
 typedef enum bool
 {
 	false = 0,
-	true = 1
+	true
 } bool;
 
 
